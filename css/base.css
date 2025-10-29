@@ -1,0 +1,241 @@
+/* ========================================
+   BASE.CSS - Tokens, Reset, Typography
+   ======================================== */
+
+/* CSS Tokens */
+:root {
+  /* Colors - System Colors */
+  --color-primary: #4D3F3C;
+  --color-secondary: #A39660;
+  --color-text: #262626;
+  --color-emphasis: #46483B;
+
+  /* Custom Colors */
+  --color-beige: #D8D3C7;
+  --color-olive: #6E6F5F;
+  --color-bg: #F5F5F5;
+
+  /* UI Colors */
+  --color-surface: #ffffff;
+  --color-surface-2: #f8f8f8;
+  --color-muted: #6b7280;
+  --color-accent: #A39660;
+  --color-success: #065f46;
+  --color-error: #b91c1c;
+  --color-border: #e5e7eb;
+  --color-border-focus: color-mix(in oklab, var(--color-primary) 60%, white 40%);
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+
+  /* Typography */
+  --font-family-sans: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  --font-family-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Design tokens */
+  --radius: 14px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.1);
+  --transition: 0.2s ease-in-out;
+
+  /* Layout */
+  --container-max-width: 1200px;
+  --header-height: 80px;
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default margins */
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd,
+blockquote, figure, fieldset, legend {
+  margin: 0;
+}
+
+/* Images */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Forms */
+input, button, textarea, select {
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Lists */
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-border-focus);
+  outline-offset: 2px;
+}
+
+/* Typography */
+.h1, h1 {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-4);
+}
+
+.h2, h2 {
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-3);
+}
+
+.h3, h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-2);
+}
+
+.h4, h4 {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  line-height: var(--line-height-normal);
+  margin-bottom: var(--space-2);
+}
+
+p {
+  margin-bottom: var(--space-3);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  :root {
+    --font-size-4xl: 2rem;
+    --font-size-3xl: 1.75rem;
+  }
+
+  .container {
+    padding: 0 var(--space-3);
+  }
+
+  .h1, h1 {
+    font-size: var(--font-size-4xl);
+  }
+
+  .h2, h2 {
+    font-size: var(--font-size-3xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--space-2);
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  :root {
+    --color-border: #000000;
+    --shadow: none;
+  }
+}

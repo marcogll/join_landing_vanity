@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="floorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f8f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e5e5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf7fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5e6f5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background - salon interior -->
+  <rect width="600" height="400" fill="url(#wallGradient)"/>
+
+  <!-- Floor -->
+  <rect x="0" y="300" width="600" height="100" fill="url(#floorGradient)"/>
+
+  <!-- Modern salon chairs -->
+  <g transform="translate(100,200)">
+    <rect x="0" y="50" width="80" height="100" rx="10" fill="#4D3F3C"/>
+    <rect x="5" y="55" width="70" height="90" rx="8" fill="#A39660"/>
+    <circle cx="40" cy="85" r="15" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(250,200)">
+    <rect x="0" y="50" width="80" height="100" rx="10" fill="#4D3F3C"/>
+    <rect x="5" y="55" width="70" height="90" rx="8" fill="#A39660"/>
+    <circle cx="40" cy="85" r="15" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(400,200)">
+    <rect x="0" y="50" width="80" height="100" rx="10" fill="#4D3F3C"/>
+    <rect x="5" y="55" width="70" height="90" rx="8" fill="#A39660"/>
+    <circle cx="40" cy="85" r="15" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Modern lighting -->
+  <circle cx="150" cy="80" r="20" fill="#ffffff" opacity="0.9"/>
+  <circle cx="300" cy="80" r="20" fill="#ffffff" opacity="0.9"/>
+  <circle cx="450" cy="80" r="20" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Equipment stations -->
+  <rect x="50" y="120" width="40" height="60" rx="5" fill="#2d2d2d"/>
+  <rect x="510" y="120" width="40" height="60" rx="5" fill="#2d2d2d"/>
+
+  <!-- Professional storage -->
+  <rect x="20" y="50" width="30" height="120" rx="5" fill="#4D3F3C"/>
+  <rect x="550" y="50" width="30" height="120" rx="5" fill="#4D3F3C"/>
+
+  <!-- Modern decor elements -->
+  <circle cx="80" cy="40" r="8" fill="#A39660" opacity="0.6"/>
+  <circle cx="520" cy="40" r="8" fill="#A39660" opacity="0.6"/>
+
+  <!-- Window/natural light effect -->
+  <rect x="0" y="0" width="600" height="50" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Professional ambiance text -->
+  <text x="300" y="380" text-anchor="middle" fill="#4D3F3C" font-size="18" font-weight="bold">Ambiente Profesional Moderno</text>
+</svg>

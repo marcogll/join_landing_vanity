@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" fill="none">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6f5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fdf7fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A39660;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4D3F3C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="900" fill="url(#heroGradient)"/>
+
+  <!-- Main illustration representing beauty team -->
+  <circle cx="640" cy="450" r="300" fill="#ffffff" opacity="0.8"/>
+  <circle cx="640" cy="450" r="280" fill="url(#accentGradient)" opacity="0.1"/>
+
+  <!-- Central beauty icons -->
+  <g transform="translate(540,350)">
+    <!-- Nail art representation -->
+    <rect x="0" y="0" width="60" height="60" rx="30" fill="#A39660" opacity="0.8"/>
+    <circle cx="30" cy="30" r="15" fill="#ffffff"/>
+    <text x="30" y="36" text-anchor="middle" fill="#4D3F3C" font-size="14" font-weight="bold">💅</text>
+  </g>
+
+  <g transform="translate(640,350)">
+    <!-- Lashes representation -->
+    <rect x="0" y="0" width="60" height="60" rx="30" fill="#A39660" opacity="0.8"/>
+    <circle cx="30" cy="30" r="15" fill="#ffffff"/>
+    <text x="30" y="36" text-anchor="middle" fill="#4D3F3C" font-size="14" font-weight="bold">👁️</text>
+  </g>
+
+  <g transform="translate(740,350)">
+    <!-- Hair styling representation -->
+    <rect x="0" y="0" width="60" height="60" rx="30" fill="#A39660" opacity="0.8"/>
+    <circle cx="30" cy="30" r="15" fill="#ffffff"/>
+    <text x="30" y="36" text-anchor="middle" fill="#4D3F3C" font-size="14" font-weight="bold">💇</text>
+  </g>
+
+  <g transform="translate(590,450)">
+    <!-- Makeup representation -->
+    <rect x="0" y="0" width="60" height="60" rx="30" fill="#A39660" opacity="0.8"/>
+    <circle cx="30" cy="30" r="15" fill="#ffffff"/>
+    <text x="30" y="36" text-anchor="middle" fill="#4D3F3C" font-size="14" font-weight="bold">💄</text>
+  </g>
+
+  <g transform="translate(690,450)">
+    <!-- Skincare representation -->
+    <rect x="0" y="0" width="60" height="60" rx="30" fill="#A39660" opacity="0.8"/>
+    <circle cx="30" cy="30" r="15" fill="#ffffff"/>
+    <text x="30" y="36" text-anchor="middle" fill="#4D3F3C" font-size="14" font-weight="bold">🧴</text>
+  </g>
+
+  <!-- Team collaboration elements -->
+  <circle cx="450" cy="350" r="40" fill="#ffffff" opacity="0.9"/>
+  <circle cx="450" cy="350" r="30" fill="#A39660" opacity="0.3"/>
+  <text x="450" y="356" text-anchor="middle" fill="#4D3F3C" font-size="12" font-weight="bold">👥</text>
+
+  <circle cx="830" cy="350" r="40" fill="#ffffff" opacity="0.9"/>
+  <circle cx="830" cy="350" r="30" fill="#A39660" opacity="0.3"/>
+  <text x="830" y="356" text-anchor="middle" fill="#4D3F3C" font-size="12" font-weight="bold">⭐</text>
+
+  <!-- Decorative elements -->
+  <circle cx="200" cy="200" r="15" fill="#A39660" opacity="0.4"/>
+  <circle cx="1080" cy="200" r="12" fill="#A39660" opacity="0.3"/>
+  <circle cx="150" cy="700" r="18" fill="#A39660" opacity="0.3"/>
+  <circle cx="1130" cy="700" r="10" fill="#A39660" opacity="0.4"/>
+
+  <!-- Bottom text overlay -->
+  <rect x="0" y="800" width="1280" height="100" fill="rgba(255,255,255,0.8)"/>
+  <text x="640" y="840" text-anchor="middle" fill="#4D3F3C" font-size="24" font-weight="bold">Equipo Vanity - Profesionales en Belleza</text>
+  <text x="640" y="870" text-anchor="middle" fill="#6b7280" font-size="18">Trabajando juntas para crear experiencias excepcionales</text>
+</svg>

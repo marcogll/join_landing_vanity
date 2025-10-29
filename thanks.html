@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>¡Gracias por aplicar! — Vanity</title>
+  <meta name="description" content="Tu aplicación ha sido recibida. Nos pondremos en contacto contigo pronto.">
+
+  <!-- Preload fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- SEO & Social -->
+  <meta property="og:title" content="Aplicación recibida — Vanity">
+  <meta property="og:description" content="Tu aplicación ha sido recibida. Nos pondremos en contacto contigo pronto.">
+  <meta property="og:image" content="/assets/img/og-join-vanity.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://join.vanity.grupoalma.com/thanks.html">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/thanks.css">
+
+  <!-- Prevent indexing of thank you page -->
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav__logo" href="/">
+        <img src="/assets/img/logos/vanity.svg" alt="Vanity" width="120" height="40">
+      </a>
+      <div class="nav__actions">
+        <a class="btn btn--ghost" href="/">Inicio</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- THANK YOU HERO -->
+    <section class="thanks-hero">
+      <div class="container">
+        <div class="thanks-hero__content">
+          <div class="thanks-hero__icon">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="var(--color-primary)" stroke-width="2"/>
+              <path d="m9 12 2 2 4-4" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <h1 class="thanks-hero__title">¡Aplicación recibida!</h1>
+
+          <p class="thanks-hero__subtitle">
+            Gracias por tu interés en formar parte del equipo Vanity.
+            Hemos recibido tu aplicación correctamente.
+          </p>
+
+          <div class="thanks-hero__folio">
+            <span class="folio-label">Número de folio:</span>
+            <code class="folio-number" id="folioNumber">...</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEXT STEPS -->
+    <section class="next-steps">
+      <div class="container">
+        <div class="section-header">
+          <h2>¿Qué sigue ahora?</h2>
+          <p>Estos son los próximos pasos en el proceso de selección</p>
+        </div>
+
+        <div class="next-steps__timeline">
+          <div class="step-card">
+            <div class="step-card__number">1</div>
+            <div class="step-card__content">
+              <h3>Revisión de aplicación</h3>
+              <p><strong>24-48 horas</strong></p>
+              <p>Nuestro equipo de Recursos Humanos revisará tu aplicación y portafolio cuidadosamente.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">2</div>
+            <div class="step-card__content">
+              <h3>Primer contacto</h3>
+              <p><strong>2-3 días hábiles</strong></p>
+              <p>Te contactaremos vía WhatsApp para confirmar tu interés y programar una entrevista.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">3</div>
+            <div class="step-card__content">
+              <h3>Entrevista personal</h3>
+              <p><strong>1 semana</strong></p>
+              <p>Conversaremos sobre tus objetivos, experiencia y cómo encajas en nuestro equipo.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">4</div>
+            <div class="step-card__content">
+              <h3>Prueba técnica</h3>
+              <p><strong>Si avanzas</strong></p>
+              <p>Demostración práctica de tus habilidades en tu área de especialidad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPORTANT INFO -->
+    <section class="important-info">
+      <div class="container">
+        <div class="info-grid">
+          <div class="info-card info-card--primary">
+            <div class="info-card__icon">📱</div>
+            <div class="info-card__content">
+              <h3>Mantén tu WhatsApp activo</h3>
+              <p>Te contactaremos por WhatsApp, así que mantén tu teléfono disponible y revisa tus mensajes regularmente.</p>
+            </div>
+          </div>
+
+          <div class="info-card info-card--secondary">
+            <div class="info-card__icon">📧</div>
+            <div class="info-card__content">
+              <h3>Revisa tu email</h3>
+              <p>También enviaremos actualizaciones por email. Verifica tu bandeja de entrada y spam.</p>
+            </div>
+          </div>
+
+          <div class="info-card info-card--accent">
+            <div class="info-card__icon">⏰</div>
+            <div class="info-card__content">
+              <h3>Tiempo de respuesta</h3>
+              <p>Si no tienes noticias nuestras en una semana, no dudes en contactarnos directamente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT INFO -->
+    <section class="contact-info">
+      <div class="container">
+        <div class="section-header">
+          <h2>¿Tienes preguntas?</h2>
+          <p>Estamos aquí para ayudarte durante todo el proceso</p>
+        </div>
+
+        <div class="contact-options">
+          <a href="https://wa.me/5218442278408?text=Hola,%20tengo%20preguntas%20sobre%20mi%20aplicación%20(Folio:%20)"
+             class="contact-option contact-option--primary"
+             target="_blank"
+             rel="noopener">
+            <div class="contact-option__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="contact-option__content">
+              <h4>WhatsApp</h4>
+              <p>Respuesta en 24h</p>
+            </div>
+          </a>
+
+          <a href="mailto:rrhh@vanity.grupoalma.com?subject=Consulta%20sobre%20aplicación&body=Hola,%20tengo%20preguntas%20sobre%20mi%20aplicación.%0A%0AFollio:%20"
+             class="contact-option contact-option--secondary">
+            <div class="contact-option__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-option__content">
+              <h4>Email</h4>
+              <p>rrhh@vanity.grupoalma.com</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="social-proof">
+      <div class="container">
+        <div class="section-header">
+          <h2>Mientras tanto...</h2>
+          <p>Conoce más sobre la familia Vanity</p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://instagram.com/vanity" target="_blank" rel="noopener" class="social-link">
+            <div class="social-link__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
+                <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="social-link__content">
+              <h4>@vanity</h4>
+              <p>Síguenos en Instagram para ver nuestros trabajos y el día a día del equipo</p>
+            </div>
+          </a>
+
+          <a href="https://tiktok.com/@vanity" target="_blank" rel="noopener" class="social-link">
+            <div class="social-link__icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="social-link__content">
+              <h4>@vanity</h4>
+              <p>Tutoriales, tips de belleza y contenido divertido en TikTok</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <img src="/assets/img/logos/vanity.svg" alt="Vanity" width="100" height="32">
+          <p>Parte de Grupo Alma</p>
+        </div>
+
+        <div class="footer__links">
+          <a href="/privacy.html">Política de Privacidad</a>
+          <a href="https://instagram.com/vanity" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+          <a href="https://tiktok.com/@vanity" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p>&copy; 2025 Vanity. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Remove no-js class
+    document.documentElement.classList.remove('no-js');
+
+    // Extract and display folio from URL
+    function displayFolio() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const folio = urlParams.get('folio');
+      const folioElement = document.getElementById('folioNumber');
+
+      if (folio && folioElement) {
+        folioElement.textContent = folio;
+
+        // Update WhatsApp and email links with folio
+        const whatsappLink = document.querySelector('a[href*="wa.me"]');
+        const emailLink = document.querySelector('a[href*="mailto"]');
+
+        if (whatsappLink) {
+          const currentHref = whatsappLink.getAttribute('href');
+          whatsappLink.setAttribute('href', currentHref.replace('Folio:%20)', `Folio:%20${folio})`));
+        }
+
+        if (emailLink) {
+          const currentHref = emailLink.getAttribute('href');
+          emailLink.setAttribute('href', currentHref.replace('Folio:%20', `Folio:%20${folio}`));
+        }
+      } else if (folioElement) {
+        folioElement.textContent = 'No disponible';
+      }
+    }
+
+    // Track page view
+    function trackPageView() {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'page_view', {
+          page_title: 'Thank You Page',
+          page_location: window.location.href
+        });
+      }
+    }
+
+    // Initialize
+    displayFolio();
+    trackPageView();
+
+    // Track social link clicks
+    document.querySelectorAll('.social-link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'social_click', {
+            event_category: 'engagement',
+            event_label: link.getAttribute('href'),
+            value: 1
+          });
+        }
+      });
+    });
+
+    // Track contact option clicks
+    document.querySelectorAll('.contact-option').forEach(option => {
+      option.addEventListener('click', () => {
+        if (typeof gtag !== 'undefined') {
+          const type = option.href.includes('wa.me') ? 'whatsapp' : 'email';
+          gtag('event', 'contact_click', {
+            event_category: 'engagement',
+            event_label: type,
+            value: 1
+          });
+        }
+      });
+    });
+  </script>
+  <script src="/js/analytics.js" async></script>
+</body>
+</html>
